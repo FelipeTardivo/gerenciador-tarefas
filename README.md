@@ -44,7 +44,12 @@ spring.jpa.hibernate.ddl-auto=update
 
 ### 3. Execute a aplicação
 Você pode rodar pelo IntelliJ ou pelo terminal:
-./mvnw spring-boot:run ou mvn spring-boot:run
+
+./mvnw spring-boot:run
+
+ou
+
+mvn spring-boot:run
 
 A aplicação estará disponível em:
 http://localhost:8070
