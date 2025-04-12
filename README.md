@@ -46,12 +46,16 @@ http://localhost:8070
 
 ## 📫 Endpoints principais da API
 
-Método	Endpoint	Descrição
-GET	/api/tasks	Listar todas as tarefas
-POST	/api/tasks	Criar nova tarefa
-GET	/api/tasks/{id}	Buscar tarefa por ID
-PUT	/api/tasks/{id}	Atualizar uma tarefa
-DELETE	/api/tasks/{id}	Deletar uma tarefa
+## 📫 Endpoints da API
+
+| Método | Endpoint          | Descrição                   |
+|--------|-------------------|-----------------------------|
+| `GET`  | `/api/tasks`      | Listar todas as tarefas     |
+| `POST` | `/api/tasks`      | Criar nova tarefa           |
+| `GET`  | `/api/tasks/{id}` | Buscar tarefa por ID        |
+| `PUT`  | `/api/tasks/{id}` | Atualizar uma tarefa        |
+| `DELETE`| `/api/tasks/{id}`| Deletar uma tarefa          |
+
 
 ## 👨‍💻 Autores
 Felipe Carvalho Tardivo
