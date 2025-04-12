@@ -46,8 +46,6 @@ http://localhost:8070
 
 ## 📫 Endpoints principais da API
 
-## 📫 Endpoints da API
-
 | Método | Endpoint          | Descrição                   |
 |--------|-------------------|-----------------------------|
 | `GET`  | `/api/tasks`      | Listar todas as tarefas     |
