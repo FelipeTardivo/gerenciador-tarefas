@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/18e7ee43-382b-4f96-88b6-2a79053cab54)# 📋 TaskManager
+# 📋 TaskManager
 
 Aplicação de gerenciamento de tarefas desenvolvida com **Spring Boot** e **PostgreSQL**. Permite cadastrar, visualizar, atualizar e deletar tarefas com informações como nome do responsável, descrição, status, data de criação e atualização.
 
@@ -27,6 +27,7 @@ Aplicação de gerenciamento de tarefas desenvolvida com **Spring Boot** e **Pos
 ### 1. Clone o repositório
 
 git clone https://github.com/FelipeTardivo/gerenciador-tarefas.git
+
 cd taskmanager
 
 ### 2. Configure o banco de dados
