@@ -26,11 +26,10 @@ Aplicação de gerenciamento de tarefas desenvolvida com **Spring Boot** e **Pos
 
 ### 1. Clone o repositório
 
-```bash
 git clone https://github.com/seu-usuario/taskmanager.git
 cd taskmanager
 
-###2. Configure o banco de dados
+### 2. Configure o banco de dados
 Acesse o arquivo src/main/resources/application.properties e ajuste para seu ambiente:
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/taskdb
@@ -38,14 +37,14 @@ spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
 
-###3. Execute a aplicação
+### 3. Execute a aplicação
 Você pode rodar pelo IntelliJ ou pelo terminal:
 ./mvnw spring-boot:run ou mvn spring-boot:run
 
 A aplicação estará disponível em:
 http://localhost:8070
 
-📫 Endpoints principais da API
+## 📫 Endpoints principais da API
 
 Método	Endpoint	Descrição
 GET	/api/tasks	Listar todas as tarefas
@@ -54,7 +53,6 @@ GET	/api/tasks/{id}	Buscar tarefa por ID
 PUT	/api/tasks/{id}	Atualizar uma tarefa
 DELETE	/api/tasks/{id}	Deletar uma tarefa
 
-👨‍💻 Autores
+## 👨‍💻 Autores
 Felipe Carvalho Tardivo
-
 Matheus Oliveira Mancio
