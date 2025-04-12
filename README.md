@@ -34,9 +34,13 @@ cd taskmanager
 Acesse o arquivo src/main/resources/application.properties e ajuste para seu ambiente:
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/taskdb
+
 spring.datasource.username=seu_usuario
+
 spring.datasource.password=sua_senha
+
 spring.jpa.hibernate.ddl-auto=update
+
 
 ### 3. Execute a aplicação
 Você pode rodar pelo IntelliJ ou pelo terminal:
